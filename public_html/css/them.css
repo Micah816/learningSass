@@ -492,13 +492,10 @@ footer {
   background-color: #8a059e;
 }
 
-footer a, footer p {
-  color: #ffffff;
-}
-
 footer nav ul {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 30px;
 }
 
 footer nav ul li a {
@@ -507,8 +504,9 @@ footer nav ul li a {
   color: #ffffff;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
+  font-size: 1.8rem;
 }
 
 footer nav ul li a:hover, footer nav ul li a.active {
@@ -517,33 +515,17 @@ footer nav ul li a:hover, footer nav ul li a.active {
 
 footer .copyright {
   text-align: center;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
-  footer .container nav {
+  footer .container ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
-  footer .container nav ul {
-    display: flex;
-  }
-  footer .container nav ul li a {
+  footer .container ul li a {
     padding: 5px;
-  }
-}
-
-@media (min-width: 992px) {
-  footer .container nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  footer .container nav ul {
-    display: flex;
-  }
-  footer .container nav ul li a {
-    padding: 5px 15px;
   }
 }
 
