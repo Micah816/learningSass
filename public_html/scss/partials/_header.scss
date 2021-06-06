@@ -29,7 +29,7 @@ header{
 
                     &:hover,
                         &.active{
-                        color:$nav-link-hover;
+                        color:complement($header-bg);
                     }
                 }
 
